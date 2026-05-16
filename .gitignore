@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Visual Studio / Rider
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+*.dockerfile.*.tmp
+
+# ASP.NET Core / appsettings
+appsettings.*.Local.json
+appsettings.*.Development.json
+
+# Publish output
+publish/
