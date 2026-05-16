@@ -67,4 +67,4 @@ jobs:
 
             docker run -d --name ${{ github.event.repository.name }} \
                          -p 8040:8080 \
-                         ghcr.io/${{ github.repository }}:latest
+                          ghcr.io/$REPO_LOWER:latest
